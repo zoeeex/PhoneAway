@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="/images/logo.png" alt="phone away logo">
+        <div class="nav-link">
+            <a href="index.html">Home</a>
+            <a href="manual.html">Handleiding</a>
+            <a href="contact.html">Contactgegevens</a>
+            <a href="questions.html">Veelgestelde vragen</a>
+        </div>
+    </nav>
+
+    <header class="contact-header">
+        <h1>Contact</h1>
+        <p>Vul uw contact gegevens in de onderstaande formulier als u een vraag/reservering wilt plaatsen, of lid wilt
+            worden van onze site. </p>
+    </header>
+
+    <main>
+
+        <form>
+            <section>
+                <div class="center-container">
+
+                    <h2>formulier</h2>
+
+                    <div class="username">
+                        <div class="name">
+                            <label for="name">Voornaam</label>
+                            <input type="text" name="name" id="name" placeholder="voer voornaam in..." required>
+                        </div>
+
+                        <div class="name">
+                            <label for="surname">Achternaam</label>
+                            <input type="text" name="surname" id="surname" placeholder="voer achternaam in..." required>
+                        </div>
+                    </div>
+
+                    <div class="email">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="voer e-mailadress in..." required>
+                    </div>
+
+                    <div class="data">
+                        <div class="city">
+                            <label for="city">Woonplaats</label>
+                            <input type="text" name="city" id="city" placeholder="voer woonplaats in..." required>
+                        </div>
+
+
+                        <div class="date">
+                            <label for="birthdate">Geboortedatum</label>
+                            <input type="date" name="birthdate" id="birthdate" required>
+                        </div>
+                    </div>
+
+
+                    <div class="subject">
+                        <label for="send-to">Onderwerp</label>
+                        <select id="send-to" name="send-to" required>
+                            <option value="" disabled selected>Kies onderwerp van het bericht...</option>
+                            <option value="0">reserveren</option>
+                            <option value="1">vraag stellen</option>
+                        </select>
+                    </div>
+
+
+                    <div class="message">
+                        <label for="message">bericht</label>
+                        <input type="text" name="message" id="message" required>
+                    </div>
+
+                    <button type="submit">verzenden</button>
+                </div>
+            </section>
+        </form>
+
+    </main>
+
+
+    <footer>
+        <div class="all-logos">
+            <img src="images/logo.png" alt="logo" id="product-logo">
+            <p>copyright 2024 PhoneAway</p>
+            <div class="logo">
+                <img src="/images/instagram.png" alt="instagram logo">
+                <img src="/images/facebook.png" alt="facebook logo">
+                <img src="/images/snapchat.png" alt="snapchat logo">
+            </div>
+        </div>
+        <div class="empty"> </div>
+            <a href="#">Privacyverklaring</a>
+            <a href="#">Algemene voorwaarden</a>
+            <a href="#">Cookiebeleid</a>
+            <a href="#">Contact</a>
+    </footer>
+</body>
+
+</html>
